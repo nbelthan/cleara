@@ -1,0 +1,28 @@
+# Exclude everything except the landing page
+specs/
+landing-depr/
+AGENTS.md
+
+# Landing page dependencies and build artifacts
+landing/node_modules/
+landing/.next/
+landing/out/
+landing/.env*.local
+landing/.vercel
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
