@@ -7,21 +7,17 @@ This repository contains the marketing website for the Cleara Protocol.
 ## 🚀 Quick Start
 
 ```bash
-cd landing
 npm install
 npm run dev
 ```
 
-The site will be available at http://localhost:3001
+The site will be available at http://localhost:3000
 
 ## 📦 Deployment
 
 This site is configured for automatic deployment on Vercel.
 
-**Deploy Steps:**
-1. Connect this repository to Vercel
-2. Vercel will automatically detect the configuration from `vercel.json`
-3. The landing page in the `landing/` directory will be deployed
+Simply push to the `main` branch and Vercel will automatically build and deploy.
 
 ## 🛠 Tech Stack
 
@@ -31,9 +27,14 @@ This site is configured for automatic deployment on Vercel.
 - **3D Graphics:** Three.js + React Three Fiber
 - **Animations:** Framer Motion
 
-## 📄 Documentation
+## 🎨 Features
 
-See [`landing/README.md`](./landing/README.md) for detailed documentation about the landing page.
+- 3D particle field background
+- Holographic text effects
+- Glassmorphic UI components
+- Animated metrics counters
+- Network graph visualization
+- Whitepaper reader at `/whitepaper`
 
 ## 🔗 Links
 

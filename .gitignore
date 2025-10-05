@@ -1,14 +1,15 @@
-# Exclude everything except the landing page
+# Exclude specs and deprecated folders
 specs/
 landing-depr/
+landing/
 AGENTS.md
 
-# Landing page dependencies and build artifacts
-landing/node_modules/
-landing/.next/
-landing/out/
-landing/.env*.local
-landing/.vercel
+# Next.js dependencies and build artifacts
+node_modules/
+.next/
+out/
+.env*.local
+.vercel
 
 # OS files
 .DS_Store
